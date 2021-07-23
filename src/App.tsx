@@ -10,7 +10,7 @@ function App() {
       React TypeScript Practice
       <Counter title="TypeScript" subtitle="Typescript with types"/>
       <List title="List" items={["one", "two", "three"]} />
-      <ProfileCard />
+      <ProfileCard title="Profiles"/>
     </div>
   );
 }

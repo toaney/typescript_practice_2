@@ -1,8 +1,13 @@
 import React, {FC} from 'react';
 
-const ProfileCard: FC = () => {
+interface ProfileCardProps {
+  title?: string;
+  users?: object[];
+}
+
+const ProfileCard: FC<ProfileCardProps> = ({title, users}) => {
   return(
-    <h3>Profile Card</h3>
+    <h3>{title}</h3>
   )
 }
 
